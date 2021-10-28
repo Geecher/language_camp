@@ -10,83 +10,110 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header__inner">
-                <div class="header__inner-top">
-                    <ul class="top-list">
-                        <li class="top-list__item">
-                            <a class="top-list__item-link" href="#">языковые лагеря</a>
-                        </li>
-                        <li class="top-list__item">
-                            <a class="top-list__item-link" href="#">онлайн услуги</a>
-                        </li>
-                        <li class="top-list__item">
-                            <a class="top-list__item-link" href="#">корпоративные услуги</a>
-                        </li>
-                        <li class="top-list__item">
-                            <a class="top-list__item-link" href="#">турагенство</a>
-                        </li>
-                    </ul>
-
-                    <ul class="connection-list">
-                        <li class="connection-list__item">
-                            <a class="connection-list__item-link" href="">Пройти тест</a>
-                        </li>
-                        <li class="connection-list__item">
-                            <a class="connection-list__item-link" href="">частые вопросы</a>
-                        </li>
-                        <li class="connection-list__item">
-                            <a class="connection-list__item-tel" href="tel:+79154323767">+7 (915) 432 37 67</a>
-                        </li>
-                        <li class="connection-list__item">
-                            <a class="connection-list__item-tel" href="tel:+79154323767">+7 (915) 432 37 67</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="header__inner-bottom">
-                    <a class="logo" href="#">
-                        <img class="logo__img" src="./images/logo.svg" alt="logo">
-                    </a>
-                    <nav class="menu">
-                        <ul class="menu__list">
-                            <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">Туры по россии</a>
+    <section class="hero">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__inner-top">
+                        <ul class="top-list">
+                            <li class="top-list__item">
+                                <a class="top-list__item-link" href="#">языковые лагеря</a>
                             </li>
-                            <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">Лагеря</a>
+                            <li class="top-list__item">
+                                <a class="top-list__item-link" href="#">онлайн услуги</a>
                             </li>
-                            <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">О нас</a>
+                            <li class="top-list__item">
+                                <a class="top-list__item-link" href="#">корпоративные услуги</a>
                             </li>
-                            <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">Новости</a>
-                            </li>
-                            <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">Фото и видео</a>
-                            </li>
-                            <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">Контакты</a>
+                            <li class="top-list__item">
+                                <a class="top-list__item-link" href="#">турагенство</a>
                             </li>
                         </ul>
-                    </nav>
-                    <div class="feedback">
-                        <div class="feedback__social">
-                            <a class="feedback__social-item" href="#">
-                                <img class="feedback__social-link" src="./images/tg.svg" alt="telegram">
-                            </a>
-                            <a class="feedback__social-item" href="#">
-                                <img class="feedback__social-link" src="./images/tg.svg" alt="telegram">
-                            </a>
+    
+                        <ul class="connection-list">
+                            <li class="connection-list__item">
+                                <a class="connection-list__item-link" href="">Пройти тест</a>
+                            </li>
+                            <li class="connection-list__item">
+                                <a class="connection-list__item-link" href="">частые вопросы</a>
+                            </li>
+                            <li class="connection-list__item">
+                                <a class="connection-list__item-tel" href="tel:+79154323767">+7 (915) 432 37 67</a>
+                            </li>
+                            <li class="connection-list__item">
+                                <a class="connection-list__item-tel" href="tel:+79154323767">+7 (915) 432 37 67</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__inner-bottom">
+                        <a class="logo" href="#">
+                            <img class="logo__img" src="./images/logo.svg" alt="logo">
+                        </a>
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__list-item">
+                                    <a class="menu__list-link" href="#">Туры по россии</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__list-link" href="#">Лагеря</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__list-link" href="#">О нас</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__list-link" href="#">Новости</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__list-link" href="#">Фото и видео</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__list-link" href="#">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="feedback">
+                            <div class="feedback__social">
+                                <a class="feedback__social-item" href="#">
+                                    <img class="feedback__social-link" src="./images/tg.svg" alt="telegram">
+                                </a>
+                                <a class="feedback__social-item" href="#">
+                                    <img class="feedback__social-link" src="./images/tg.svg" alt="telegram">
+                                </a>
+                            </div>
+                            <button class="call-back" type="button" data-toggle="modal" data-target="#feedbackFormModal">
+                                ЗАКАЗАТЬ ЗВОНОК
+                            </button>
                         </div>
-                        <button class="call-back" type="button" data-toggle="modal" data-target="#feedbackFormModal">
-                            ЗАКАЗАТЬ ЗВОНОК
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="camp">
+            <div class="camp__content">
+                <div class="camp__content-inner">
+                    <div class="content-blog">
+                        <h1 class="camp__title title">Мультиязычный <br> лагерь</h1>
+                        <p class="camp__desc">Your Camp в России и за границей!<br>
+                            Твой лагерь - Твои каникулы!
+                        </p>
+                        <button class="sign-up" type="button" data-toggle="modal" data-target="#feedbackFormModal">
+                            ЗАПИСАТЬСЯ
                         </button>
+                    </div>
+                    <div class="slider-blog">
+                        <div class="slider-blog__item">
+                            <div class="container">
+                                <div class="slider-blog__inner">
+                                    <img class="slider-blog__item-img card-1" src="./images/card-1.png" alt="card">
+                                    <img class="slider-blog__item-img card-2" src="./images/card-2.png" alt="card">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </section>
 
     <main class="main">
         
@@ -125,51 +152,51 @@
 
             </div>
         </div>
-        </div>
-        <div class="footer__bottom">
-            <div class="container">
-                <div class="footer__bottom-inner">
-                    <button class="call-back" type="button" data-toggle="modal" data-target="#feedbackFormModal">
-                        ЗАКАЗАТЬ ЗВОНОК
-                    </button>
-                    <nav class="footer__menu">
-                        <ul class="footer__list">
-                            <li class="footer__list-item">
-                                <a class="footer__list-link" href="#">Туры по россии</a>
-                            </li>
-                            <li class="footer__list-item">
-                                <a class="footer__list-link" href="#">Лагеря</a>
-                            </li>
-                            <li class="footer__list-item">
-                                <a class="footer__list-link" href="#">О нас</a>
-                            </li>
-                            <li class="footer__list-item">
-                                <a class="footer__list-link" href="#">Новости</a>
-                            </li>
-                            <li class="footer__list-item">
-                                <a class="footer__list-link" href="#">Фото и видео</a>
-                            </li>
-                            <li class="footer__list-item">
-                                <a class="footer__list-link" href="#">Контакты</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="feedback__social">
-                        <a class="feedback__social-item" href="#">
-                            <img class="feedback__social-link" src="./images/in.svg" alt="instagram">
-                        </a>
-                        <a class="feedback__social-item" href="#">
-                            <img class="feedback__social-link" src="./images/facebook.svg" alt="facebook">
-                        </a>
-                        <a class="feedback__social-item" href="#">
-                            <img class="feedback__social-link" src="./images/tg.svg" alt="telegram">
-                        </a>
-                    </div>
-                </div>
-                <div class="footer__org">
-                    <p class="footer__org-name">© 2018 – 2021, Yourcamp.me</p>
+    </div>
+    <div class="footer__bottom">
+        <div class="container">
+            <div class="footer__bottom-inner">
+                <button class="call-back" type="button" data-toggle="modal" data-target="#feedbackFormModal">
+                    ЗАКАЗАТЬ ЗВОНОК
+                </button>
+                <nav class="footer__menu">
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#">Туры по россии</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#">Лагеря</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#">О нас</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#">Новости</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#">Фото и видео</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="feedback__social">
+                    <a class="feedback__social-item" href="#">
+                        <img class="feedback__social-link" src="./images/in.svg" alt="instagram">
+                    </a>
+                    <a class="feedback__social-item" href="#">
+                        <img class="feedback__social-link" src="./images/facebook.svg" alt="facebook">
+                    </a>
+                    <a class="feedback__social-item" href="#">
+                        <img class="feedback__social-link" src="./images/tg.svg" alt="telegram">
+                    </a>
                 </div>
             </div>
+            <div class="footer__org">
+                <p class="footer__org-name">© 2018 – 2021, Yourcamp.me</p>
+            </div>
+        </div>
     </footer>
 
     <script src="./js/main.min.js"></script>
