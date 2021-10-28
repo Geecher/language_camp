@@ -1,3 +1,20 @@
-body{
+body {
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #838383;
+    @extend %montserrat-400;
+}
 
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 140%;
+    color: #2C375D;
 }
