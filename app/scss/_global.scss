@@ -8,7 +8,7 @@ body {
     line-height: 150%;
     letter-spacing: 0.01em;
     color: #838383;
-    @extend %montserrat-400;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
 }
