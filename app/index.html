@@ -6,11 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Наш лагерь</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.min.css">
 </head>
 
 <body>
     <section class="hero">
+
         <header class="header">
             <div class="container">
                 <div class="header__inner">
@@ -29,13 +33,13 @@
                                 <a class="top-list__item-link" href="#">турагенство</a>
                             </li>
                         </ul>
-    
+
                         <ul class="connection-list">
                             <li class="connection-list__item">
-                                <a class="connection-list__item-link" href="">Пройти тест</a>
+                                <a class="connection-list__item-link" href="">пройти тест</a>
                             </li>
                             <li class="connection-list__item">
-                                <a class="connection-list__item-link" href="">частые вопросы</a>
+                                <a class="connection-list__item-link" href="./faq.html">частые вопросы</a>
                             </li>
                             <li class="connection-list__item">
                                 <a class="connection-list__item-tel" href="tel:+79154323767">+7 (915) 432 37 67</a>
@@ -52,22 +56,22 @@
                         <nav class="menu">
                             <ul class="menu__list">
                                 <li class="menu__list-item">
-                                    <a class="menu__list-link" href="#">Туры по россии</a>
+                                    <a class="menu__list-link" href="./tours.html">Туры по россии</a>
                                 </li>
                                 <li class="menu__list-item">
-                                    <a class="menu__list-link" href="#">Лагеря</a>
+                                    <a class="menu__list-link" href="./camps.html">Лагеря</a>
                                 </li>
                                 <li class="menu__list-item">
-                                    <a class="menu__list-link" href="#">О нас</a>
+                                    <a class="menu__list-link" href="./about-us.html">О нас</a>
                                 </li>
                                 <li class="menu__list-item">
-                                    <a class="menu__list-link" href="#">Новости</a>
+                                    <a class="menu__list-link" href="./news.html">Новости</a>
                                 </li>
                                 <li class="menu__list-item">
                                     <a class="menu__list-link" href="#">Фото и видео</a>
                                 </li>
                                 <li class="menu__list-item">
-                                    <a class="menu__list-link" href="#">Контакты</a>
+                                    <a class="menu__list-link" href="./contacts.html">Контакты</a>
                                 </li>
                             </ul>
                         </nav>
@@ -80,7 +84,8 @@
                                     <img class="feedback__social-link" src="./images/tg.svg" alt="telegram">
                                 </a>
                             </div>
-                            <button class="call-back" type="button" data-toggle="modal" data-target="#feedbackFormModal">
+                            <button class="call-back" type="button" data-toggle="modal"
+                                data-target="#feedbackFormModal">
                                 ЗАКАЗАТЬ ЗВОНОК
                             </button>
                         </div>
@@ -88,27 +93,69 @@
                 </div>
             </div>
         </header>
+
         <div class="camp">
-            <div class="camp__content">
-                <div class="camp__content-inner">
-                    <div class="content-blog">
-                        <h1 class="camp__title title">Мультиязычный <br> лагерь</h1>
-                        <p class="camp__desc">Your Camp в России и за границей!<br>
-                            Твой лагерь - Твои каникулы!
-                        </p>
-                        <button class="sign-up" type="button" data-toggle="modal" data-target="#feedbackFormModal">
-                            ЗАПИСАТЬСЯ
-                        </button>
-                    </div>
-                    <div class="slider-blog">
-                        <div class="slider-blog__item">
-                            <div class="container">
-                                <div class="slider-blog__inner">
-                                    <img class="slider-blog__item-img card-1" src="./images/card-1.png" alt="card">
-                                    <img class="slider-blog__item-img card-2" src="./images/card-2.png" alt="card">
+            <div class="container">
+                <div class="camp__content">
+                    <div class="camp__content-inner">
+
+                        <div class="content-blog">
+                            <h1 class="camp__title title">Мультиязычный <br> лагерь</h1>
+                            <p class="camp__desc">Your Camp в России и за границей!<br>
+                                Твой лагерь - Твои каникулы!
+                            </p>
+                            <button class="sign-up" type="button" data-toggle="modal" data-target="#feedbackFormModal">
+                                ЗАПИСАТЬСЯ
+                            </button>
+                        </div>
+
+                        <div class="top-slider">
+                            <div class="top-slider__item">
+                                <div class="top-slider__inner">
+                                    <div class="top-slider__item-card-1">
+                                        <img class="top-slider__item-img" src="./images/card-1.png" alt="card">
+                                    </div>
+                                    <!-- <div class="top-slider__item-card-2">
+                                        <img class="top-slider__item-img" src="./images/card-2.png" alt="card">
+                                    </div> -->
+                                </div>
+                            </div>
+
+                            <!-- <div class="top-slider__item">
+                            <div class="top-slider__inner">
+                                <div class="top-slider__item-card-1">
+                                    <img class="top-slider__item-img-1" src="./images/card-1.png" alt="card">
+                                </div>
+                                <div class="top-slider__item-card-2">
+                                    <img class="top-slider__item-img-2" src="./images/card-2.png" alt="card">
                                 </div>
                             </div>
                         </div>
+
+                        <div class="top-slider__item">
+                            <div class="top-slider__inner">
+                                <div class="top-slider__item-card-1">
+                                    <img class="top-slider__item-img-1" src="./images/card-1.png" alt="card">
+                                </div>
+                                <div class="top-slider__item-card-2">
+                                    <img class="top-slider__item-img-2" src="./images/card-2.png" alt="card">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top-slider__item">
+                            <div class="top-slider__inner">
+                                <div class="top-slider__item-card-1">
+                                    <img class="top-slider__item-img-1" src="./images/card-1.png" alt="card">
+                                </div>
+                                <div class="top-slider__item-card-2">
+                                    <img class="top-slider__item-img-2" src="./images/card-2.png" alt="card">
+                                </div>
+                            </div>
+                        </div> -->
+
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -116,7 +163,273 @@
     </section>
 
     <main class="main">
-        
+
+        <section class="services">
+            <div class="container">
+                <div class="services-inner">
+
+                    <div class="services-text">
+                        <h2 class="services__title title">Мы предлагаем
+                            ВАМ и ВАШИМ ДЕТЯМ только самые лучшие услуги.
+                        </h2>
+                        <ul class="services-list">
+                            <li class="services-list__item">
+                                • Собственные Мультиязычные лагеря в Подмосковье, Сочи, Крыму, Болгарии, Турции с
+                                зарубежными преподавателями;
+                            </li>
+                            <li class="services-list__item">
+                                • Семейные лагеря;
+                            </li>
+                            <li class="services-list__item">
+                                • Онлайн лагерь “Online Multi Camp” в каникулярное время и выходные дни;
+                            </li>
+                            <li class="services-list__item">
+                                • Индивидуальную разработку и организацию детских лагерей для групп;
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="services-icons">
+                        <div class="services-icons__item">
+                            <article class="service service--first">
+                                <div>
+                                    <img src="./images/home.svg" alt="иконка услуги">
+                                </div>
+                                <h5 class="service__title title">15 дней без русского!</h5>
+                                <p class="service__lead">Общение только на иностранных языках</p>
+                            </article>
+                        </div>
+                        <div class="services-icons__item">
+                            <article class="service service--second">
+                                <div>
+                                    <img src="./images/home.svg" alt="иконка услуги">
+                                </div>
+                                <h5 class="service__title title">Надежно!</h5>
+                                <p class="service__lead">89 детей из 100 приезжают к нам снова</p>
+                            </article>
+                        </div>
+                        <div class="services-icons__item">
+                            <article class="service service--third">
+                                <div>
+                                    <img src="./images/home.svg" alt="иконка услуги">
+                                </div>
+                                <h5 class="service__title title">Ежедневное развитие!</h5>
+                                <p class="service__lead">Коммуникативные навыки, природные способности, умение дружить
+                                </p>
+                            </article>
+                        </div>
+                        <div class="services-icons__item">
+                            <article class="service service--fourth">
+                                <div>
+                                    <img src="./images/home.svg" alt="иконка услуги">
+                                </div>
+                                <h5 class="service__title title">Без гаджетов!</h5>
+                                <p class="service__lead">Живое общение «на равных»</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="holiday">
+            <div class="container">
+                <div class="holiday-inner">
+                    <h2 class="holiday__title title">
+                        Выбери свои каникулы
+                    </h2>
+
+                    <div class="holiday-slider">
+                        <a class="holiday-slider__item" href="#">
+                            <img class="holiday-slider__item-img" src="./images/holiday/moscow.png" alt="">
+                            <h4 class="holiday-slider__item-title">Лагерь в подмосковье</h4>
+                            <img class="holiday-slider__item-arrow" src="" alt="">
+                        </a>
+
+                        <a class="holiday-slider__item" href="#">
+                            <img class="holiday-slider__item-img" src="./images/holiday/krim.png" alt="">
+                            <h4 class="holiday-slider__item-title">Лагерь в крыму</h4>
+                            <img class="holiday-slider__item-arrow" src="" alt="">
+                        </a>
+
+                        <a class="holiday-slider__item" href="#">
+                            <img class="holiday-slider__item-img" src="./images/holiday/sochi.png" alt="">
+                            <h4 class="holiday-slider__item-title">Лагерь в сочи</h4>
+                            <img class="holiday-slider__item-arrow" src="" alt="">
+                        </a>
+
+                        <a class="holiday-slider__item" href="#">
+                            <img class="holiday-slider__item-img" src="./images/holiday/europe.png" alt="">
+                            <h4 class="holiday-slider__item-title">Лагерь за границей</h4>
+                            <img class="holiday-slider__item-arrow" src="" alt="">
+                        </a>
+
+                        <a class="holiday-slider__item" href="#">
+                            <img class="holiday-slider__item-img" src="./images/holiday/moscow.png" alt="">
+                            <h4 class="holiday-slider__item-title">Лагерь в подмосковье</h4>
+                            <img class="holiday-slider__item-arrow" src="" alt="">
+                        </a>
+
+                        <a class="holiday-slider__item" href="#">
+                            <img class="holiday-slider__item-img" src="./images/holiday/krim.png" alt="">
+                            <h4 class="holiday-slider__item-title">Лагерь в крыму</h4>
+                            <img class="holiday-slider__item-arrow" src="" alt="">
+                        </a>
+
+                        <a class="holiday-slider__item" href="#">
+                            <img class="holiday-slider__item-img" src="./images/holiday/sochi.png" alt="">
+                            <h4 class="holiday-slider__item-title">Лагерь в сочи</h4>
+                            <img class="holiday-slider__item-arrow" src="" alt="">
+                        </a>
+
+                        <a class="holiday-slider__item" href="#">
+                            <img class="holiday-slider__item-img" src="./images/holiday/europe.png" alt="">
+                            <h4 class="holiday-slider__item-title">Лагерь за границей</h4>
+                            <img class="holiday-slider__item-arrow" src="" alt="">
+                        </a>
+
+                        <a class="holiday-slider__item" href="#">
+                            <img class="holiday-slider__item-img" src="./images/holiday/moscow.png" alt="">
+                            <h4 class="holiday-slider__item-title">Лагерь в подмосковье</h4>
+                            <img class="holiday-slider__item-arrow" src="" alt="">
+                        </a>
+
+                        <a class="holiday-slider__item" href="#">
+                            <img class="holiday-slider__item-img" src="./images/holiday/krim.png" alt="">
+                            <h4 class="holiday-slider__item-title">Лагерь в крыму</h4>
+                            <img class="holiday-slider__item-arrow" src="" alt="">
+                        </a>
+
+                        <a class="holiday-slider__item" href="#">
+                            <img class="holiday-slider__item-img" src="./images/holiday/sochi.png" alt="">
+                            <h4 class="holiday-slider__item-title">Лагерь в сочи</h4>
+                            <img class="holiday-slider__item-arrow" src="" alt="">
+                        </a>
+
+                        <a class="holiday-slider__item" href="#">
+                            <img class="holiday-slider__item-img" src="./images/holiday/europe.png" alt="">
+                            <h4 class="holiday-slider__item-title">Лагерь за границей</h4>
+                            <img class="holiday-slider__item-arrow" src="" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="disc">
+            <div class="container">
+                <h2 class="disc__title title">Акции</h2>
+            </div>
+            <div class="wrapper">
+                <div class="disc-slider">
+                    <div class="disc-slider__item">
+                        <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                        <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                        <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                    </div>
+                    <div class="disc-slider__item">
+                        <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                        <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                        <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                    </div>
+                    <div class="disc-slider__item">
+                        <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                        <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                        <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                    </div>
+                    <div class="disc-slider__item">
+                        <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                        <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                        <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                    </div>
+                    <div class="disc-slider__item">
+                        <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                        <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                        <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                    </div>
+                    <div class="disc-slider__item">
+                        <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                        <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                        <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="disc-birthday">
+                    <div class="disc-birthday__item">
+                        <article class="birthday birthday--first">
+                            <div>
+                                <img src="./images/home.svg" alt="иконка услуги">
+                            </div>
+                            <h5 class="birthday__title title">Именинник</h5>
+                            <p class="birthday__lead">Скидка именинникам 10% при покупке путёвки в лагерь Your Camp в
+                                РФ.
+                                *применяется при бронировании и полной оплате путёвок в течении 7 дней со дня рождения;
+                            </p>
+                        </article>
+                    </div>
+                    <div class="disc-birthday__item">
+                        <article class="birthday birthday--first">
+                            <div>
+                                <img src="./images/home.svg" alt="иконка услуги">
+                            </div>
+                            <h5 class="birthday__title title">Именинник</h5>
+                            <p class="birthday__lead">Скидка именинникам 10% при покупке путёвки в лагерь Your Camp в
+                                РФ.
+                                *применяется при бронировании и полной оплате путёвок в течении 7 дней со дня рождения;
+                            </p>
+                        </article>
+                    </div>
+                    <div class="disc-birthday__item">
+                        <article class="birthday birthday--first">
+                            <div>
+                                <img src="./images/home.svg" alt="иконка услуги">
+                            </div>
+                            <h5 class="birthday__title title">Именинник</h5>
+                            <p class="birthday__lead">Скидка именинникам 10% при покупке путёвки в лагерь Your Camp в
+                                РФ.
+                                *применяется при бронировании и полной оплате путёвок в течении 7 дней со дня рождения;
+                            </p>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="news">
+            <div class="container">
+                <h2 class="news__title title">Новости</h2>
+                <div class="news-slider">
+                    <a class="news-slider__item" href="#">
+                        <img class="news-slider__item-img" src="./images/" alt="">
+                        <h4 class="news-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                        <p class="news-slider__item-desc">Общение только на иностранных языках</p>
+                        <p class="news-slider__item-date">07:41 21.01.2021</p>
+                    </a>
+                    <a class="news-slider__item" href="#">
+                        <img class="news-slider__item-img" src="./images/" alt="">
+                        <h4 class="news-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                        <p class="news-slider__item-desc">Общение только на иностранных языках</p>
+                        <p class="news-slider__item-date">07:41 21.01.2021</p>
+                    </a>
+                    <a class="news-slider__item" href="#">
+                        <img class="news-slider__item-img" src="./images/" alt="">
+                        <h4 class="news-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                        <p class="news-slider__item-desc">Общение только на иностранных языках</p>
+                        <p class="news-slider__item-date">07:41 21.01.2021</p>
+                    </a>
+                    <a class="news-slider__item" href="#">
+                        <img class="news-slider__item-img" src="./images/" alt="">
+                        <h4 class="news-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                        <p class="news-slider__item-desc">Общение только на иностранных языках</p>
+                        <p class="news-slider__item-date">07:41 21.01.2021</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer class="footer">
@@ -143,60 +456,60 @@
 
                 <ul class="connect-list">
                     <li class="connect-list__item">
-                        <a class="connect-list__item-link" href="">Пройти тест</a>
+                        <a class="connect-list__item-link" href="">пройти тест</a>
                     </li>
                     <li class="connect-list__item">
-                        <a class="connect-list__item-link" href="">частые вопросы</a>
+                        <a class="connect-list__item-link" href="./faq.html">частые вопросы</a>
                     </li>
                 </ul>
 
             </div>
         </div>
-    </div>
-    <div class="footer__bottom">
-        <div class="container">
-            <div class="footer__bottom-inner">
-                <button class="call-back" type="button" data-toggle="modal" data-target="#feedbackFormModal">
-                    ЗАКАЗАТЬ ЗВОНОК
-                </button>
-                <nav class="footer__menu">
-                    <ul class="footer__list">
-                        <li class="footer__list-item">
-                            <a class="footer__list-link" href="#">Туры по россии</a>
-                        </li>
-                        <li class="footer__list-item">
-                            <a class="footer__list-link" href="#">Лагеря</a>
-                        </li>
-                        <li class="footer__list-item">
-                            <a class="footer__list-link" href="#">О нас</a>
-                        </li>
-                        <li class="footer__list-item">
-                            <a class="footer__list-link" href="#">Новости</a>
-                        </li>
-                        <li class="footer__list-item">
-                            <a class="footer__list-link" href="#">Фото и видео</a>
-                        </li>
-                        <li class="footer__list-item">
-                            <a class="footer__list-link" href="#">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="feedback__social">
-                    <a class="feedback__social-item" href="#">
-                        <img class="feedback__social-link" src="./images/in.svg" alt="instagram">
-                    </a>
-                    <a class="feedback__social-item" href="#">
-                        <img class="feedback__social-link" src="./images/facebook.svg" alt="facebook">
-                    </a>
-                    <a class="feedback__social-item" href="#">
-                        <img class="feedback__social-link" src="./images/tg.svg" alt="telegram">
-                    </a>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__bottom-inner">
+                    <button class="call-back" type="button" data-toggle="modal" data-target="#feedbackFormModal">
+                        ЗАКАЗАТЬ ЗВОНОК
+                    </button>
+                    <nav class="footer__menu">
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="./tours.html">Туры по россии</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="./camps.html">Лагеря</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="./about-us.html">О нас</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="./news.html">Новости</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">Фото и видео</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="./contacts.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="feedback__social">
+                        <a class="feedback__social-item" href="#">
+                            <img class="feedback__social-link" src="./images/in.svg" alt="instagram">
+                        </a>
+                        <a class="feedback__social-item" href="#">
+                            <img class="feedback__social-link" src="./images/facebook.svg" alt="facebook">
+                        </a>
+                        <a class="feedback__social-item" href="#">
+                            <img class="feedback__social-link" src="./images/tg.svg" alt="telegram">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__org">
+                    <p class="footer__org-name">© 2018 – 2021, Yourcamp.me</p>
                 </div>
             </div>
-            <div class="footer__org">
-                <p class="footer__org-name">© 2018 – 2021, Yourcamp.me</p>
-            </div>
-        </div>
     </footer>
 
     <script src="./js/main.min.js"></script>
