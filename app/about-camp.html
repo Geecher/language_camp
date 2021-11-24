@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>О лагере</title>
+    <link rel = "icon" type = "./images/logo.svg" href = "./images/logo.svg">
+    <link rel = "apple-touch-icon" type = "./images/logo.svg" href = "./images/logo.svg"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -48,7 +50,7 @@
                     </ul>
                 </div>
                 <div class="header__inner-bottom">
-                    <a class="logo" href="#">
+                    <a class="logo" href="./index.html">
                         <img class="logo__img" src="./images/logo.svg" alt="logo">
                     </a>
                     <nav class="menu">
@@ -82,7 +84,7 @@
                                 <img class="feedback__social-link" src="./images/tg.svg" alt="telegram">
                             </a>
                         </div>
-                        <button class="call-back" type="button" data-toggle="modal" data-target="#feedbackFormModal">
+                        <button class="call-back open-modal" type="button">
                             ЗАКАЗАТЬ ЗВОНОК
                         </button>
                     </div>
@@ -93,46 +95,451 @@
 
     <main class="main">
 
-    </main>
+        <section class="camp-slider">
+            <div class="camp-slider-inner">
+                <div class="camp-slider__item">
+                    <img class="camp-slider__img" src="./images/camp-slider/camp-slider-item.jpg"
+                        alt="картинка слайдера">
+                </div>
+                <div class="camp-slider__item">
+                    <img class="camp-slider__img" src="./images/camp-slider/camp-slider-item.jpg"
+                        alt="картинка слайдера">
+                </div>
+                <div class="camp-slider__item">
+                    <img class="camp-slider__img" src="./images/camp-slider/camp-slider-item.jpg"
+                        alt="картинка слайдера">
+                </div>
+            </div>
+        </section>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__top">
-                <a class="logo" href="#">
-                    <img class="logo__img" src="./images/logo.svg" alt="logo">
-                </a>
+        <div class="title-block">
+            <h1 class="camp-title title">Active Lingua Camp </h1>
+            <h3 class="camp-subtitle">Английский язык + активный отдых в <br> авторской программе “Bright Stars”</h3>
+        </div>
 
-                <ul class="footer-list">
-                    <li class="footer-list__item">
-                        <a class="footer-list__item-link" href="#">языковые лагеря</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a class="footer-list__item-link" href="#">онлайн услуги</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a class="footer-list__item-link" href="#">корпоративные услуги</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a class="footer-list__item-link" href="#">турагенство</a>
-                    </li>
+
+        <div class="mf-filter-menu">
+            <div class="container">
+                <ul class="tabs">
+                    <li class="projects_select tab-link current" data-tab="section-1">О лагере</li>
+                    <li class="projects_select tab-link" data-tab="section-2">Даты - смены</li>
+                    <li class="projects_select tab-link" data-tab="section-3">Где живём</li>
+                    <li class="projects_select tab-link" data-tab="section-4">Распорядок дня</li>
+                    <li class="projects_select tab-link" data-tab="section-5">Нужные документы</li>
                 </ul>
+            </div>
+        </div>
+        <div id="section-1" class="tab-content current">
+            <div class="container">
+                <h2 class="section-1__title title">О лагере</h2>
 
-                <ul class="connect-list">
-                    <li class="connect-list__item">
-                        <a class="connect-list__item-link" href="">пройти тест</a>
-                    </li>
-                    <li class="connect-list__item">
-                        <a class="connect-list__item-link" href="./faq.html">частые вопросы</a>
-                    </li>
-                </ul>
+                <div class="section-1__text">
+                    <p>Следует отметить, что сплочённость команды профессионалов требует определения и уточнения
+                        экономической целесообразности принимаемых решений. Для современного мира укрепление и развитие
+                        внутренней структуры предопределяет высокую востребованность системы обучения кадров,
+                        соответствующей насущным потребностям.</p>
+                    <p>Следует отметить, что сплочённость команды профессионалов требует определения и уточнения
+                        экономической целесообразности принимаемых решений. Для современного мира укрепление и развитие
+                        внутренней структуры предопределяет высокую востребованность системы обучения кадров,
+                        соответствующей насущным потребностям.</p>
+                </div>
 
+                <div class="section-1__icon">
+                    <div class="section-1__icon-item">
+                        <article class="birthday birthday--first">
+                            <div>
+                                <img src="./images/home.svg" alt="иконка услуги">
+                            </div>
+                            <h5 class="birthday__title title">Медицинское обслуживание</h5>
+                            <p class="birthday__lead">Скидка именинникам 10% при покупке путёвки в лагерь Your Camp в
+                                РФ. <br><br>
+                                *применяется при бронировании и полной оплате путёвок в течении 7 дней со дня рождения;
+                            </p>
+                        </article>
+                    </div>
+                    <div class="section-1__icon-item">
+                        <article class="birthday birthday--second">
+                            <div>
+                                <img src="./images/home.svg" alt="иконка услуги">
+                            </div>
+                            <h5 class="birthday__title title">Безопасность</h5>
+                            <p class="birthday__lead">Скидка именинникам 10% при покупке путёвки в лагерь Your Camp в
+                                РФ. <br><br>
+                                *применяется при бронировании и полной оплате путёвок в течении 7 дней со дня рождения;
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="section-2" class="tab-content">
+            <div class="container">
+                <h2 class="section-4__title title">Распорядок дня</h2>
+
+                <table class="iksweb">
+                    <tbody>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Waking Up</td>
+                            <td>Подъем</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Breakfast</td>
+                            <td>Завтрак</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Waking Up</td>
+                            <td>Подъем</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Breakfast</td>
+                            <td>Завтрак</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Waking Up</td>
+                            <td>Подъем</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Breakfast</td>
+                            <td>Завтрак</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Waking Up</td>
+                            <td>Подъем</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Breakfast</td>
+                            <td>Завтрак</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Waking Up</td>
+                            <td>Подъем</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Breakfast</td>
+                            <td>Завтрак</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Waking Up</td>
+                            <td>Подъем</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Breakfast</td>
+                            <td>Завтрак</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="section-3" class="tab-content">
+            <div class="container">
+                <div class="section-3__text">
+                    <h2 class="section-3__title title">Где живем</h2>
+                    <p>На базе Event-комплекса «Олимп», который расположен в 100 км от Москвы, на юго-востоке
+                        Подмосковья, около древнего города Коломна, известного многочисленными храмами, монастырями и
+                        Кремлем, в окружении хвойного леса, на берегах больших рукотворных прудов р. Коломенка. </p>
+                </div>
+                <div class="disc-slider">
+                    <div class="disc-wrapper">
+                        <a href="#" class="disc-slider__item">
+                            <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                            <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                            <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                        </a>
+                        <a href="#" class="disc-slider__item">
+                            <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                            <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                            <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                        </a>
+                        <a href="#" class="disc-slider__item">
+                            <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                            <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                            <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                        </a>
+                        <a href="#" class="disc-slider__item">
+                            <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                            <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                            <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                        </a>
+                        <a href="#" class="disc-slider__item">
+                            <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                            <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                            <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                        </a>
+                        <a href="#" class="disc-slider__item">
+                            <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                            <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                            <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                        </a>
+                        <a href="#" class="disc-slider__item">
+                            <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                            <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                            <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="section-3__text section-3__text--bottom">
+                    <h2 class="section-3__title title">Инфраструктура</h2>
+                    <p>На базе Event-комплекса «Олимп», который расположен в 100 км от Москвы, на юго-востоке
+                        Подмосковья, около древнего города Коломна, известного многочисленными храмами, монастырями и
+                        Кремлем, в окружении хвойного леса, на берегах больших рукотворных прудов р. Коломенка. </p>
+                </div>
+                <div class="disc-slider">
+                    <div class="disc-wrapper">
+                        <a href="#" class="disc-slider__item">
+                            <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                            <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                            <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                        </a>
+                        <a href="#" class="disc-slider__item">
+                            <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                            <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                            <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                        </a>
+                        <a href="#" class="disc-slider__item">
+                            <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                            <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                            <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                        </a>
+                        <a href="#" class="disc-slider__item">
+                            <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                            <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                            <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                        </a>
+                        <a href="#" class="disc-slider__item">
+                            <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                            <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                            <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                        </a>
+                        <a href="#" class="disc-slider__item">
+                            <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                            <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                            <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                        </a>
+                        <a href="#" class="disc-slider__item">
+                            <img class="disc-slider__item-img" src="./images/disc-slider.jpg" alt="">
+                            <h4 class="disc-slider__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                            <p class="disc-slider__item-desc">Общение только на иностранных языках</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="section-4" class="tab-content">
+            <div class="container">
+                <h2 class="section-4__title title">Распорядок дня</h2>
+
+                <table class="iksweb">
+                    <tbody>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Waking Up</td>
+                            <td>Подъем</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Breakfast</td>
+                            <td>Завтрак</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Waking Up</td>
+                            <td>Подъем</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Breakfast</td>
+                            <td>Завтрак</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Waking Up</td>
+                            <td>Подъем</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Breakfast</td>
+                            <td>Завтрак</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Waking Up</td>
+                            <td>Подъем</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Breakfast</td>
+                            <td>Завтрак</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Waking Up</td>
+                            <td>Подъем</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Breakfast</td>
+                            <td>Завтрак</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Waking Up</td>
+                            <td>Подъем</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Breakfast</td>
+                            <td>Завтрак</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="section-5" class="tab-content">
+            <div class="container">
+                <h2 class="section-5__title title">О лагере</h2>
+
+                <div class="section-5__text">
+                    <p>Следует отметить, что сплочённость команды профессионалов требует определения и уточнения
+                        экономической целесообразности принимаемых решений. Для современного мира укрепление и развитие
+                        внутренней структуры предопределяет высокую востребованность системы обучения кадров,
+                        соответствующей насущным потребностям.</p>
+                    <p>Следует отметить, что сплочённость команды профессионалов требует определения и уточнения
+                        экономической целесообразности принимаемых решений. Для современного мира укрепление и развитие
+                        внутренней структуры предопределяет высокую востребованность системы обучения кадров,
+                        соответствующей насущным потребностям.</p>
+                </div>
+
+                <div class="section-5__icon">
+                    <div class="section-5__icon-item">
+                        <article class="birthday birthday--first">
+                            <div>
+                                <img src="./images/home.svg" alt="иконка услуги">
+                            </div>
+                            <h5 class="birthday__title title">Медицинское обслуживание</h5>
+                            <p class="birthday__lead">Скидка именинникам 10% при покупке путёвки в лагерь Your Camp в
+                                РФ. <br><br>
+                                *применяется при бронировании и полной оплате путёвок в течении 7 дней со дня рождения;
+                            </p>
+                        </article>
+                    </div>
+                    <div class="section-5__icon-item">
+                        <article class="birthday birthday--second">
+                            <div>
+                                <img src="./images/home.svg" alt="иконка услуги">
+                            </div>
+                            <h5 class="birthday__title title">Безопасность</h5>
+                            <p class="birthday__lead">Скидка именинникам 10% при покупке путёвки в лагерь Your Camp в
+                                РФ. <br><br>
+                                *применяется при бронировании и полной оплате путёвок в течении 7 дней со дня рождения;
+                            </p>
+                        </article>
+                    </div>
+                    <div class="section-5__icon-item">
+                        <article class="birthday birthday--third">
+                            <div>
+                                <img src="./images/home.svg" alt="иконка услуги">
+                            </div>
+                            <h5 class="birthday__title title">Безопасность</h5>
+                            <p class="birthday__lead">Скидка именинникам 10% при покупке путёвки в лагерь Your Camp в
+                                РФ. <br><br>
+                                *применяется при бронировании и полной оплате путёвок в течении 7 дней со дня рождения;
+                            </p>
+                        </article>
+                    </div>
+                </div>
             </div>
         </div>
 
+        <section class="about-camp">
+            <div class="container">
+                <form action="#" method="post" class="about-camp-form">
+                    <h2 class="about-camp-form__title">Заказать обратный звонок</h2>
+                    <div class="about-camp-form-inner">
+                        <input class="about-camp-form__input about-camp-form__input--first" type="text" name="name"
+                            placeholder="ИМЯ*" required="required">
+                        <input class="about-camp-form__input about-camp-form__input--second" type="email" name="e-mail"
+                            placeholder="E-MAIL*" required="required">
+                        <input class="about-camp-form__input about-camp-form__input--third" type="tel"
+                            placeholder="НОМЕР ТЕЛЕФОНА*" pattern="[+]{1}[0-9]{11}" required="required">
+                        <textarea class="about-camp-form__input about-camp-form__input--fourth" name="comment"
+                            placeholder="КОММЕНТАРИЙ"></textarea>
+                        <input class="about-camp-form__submit about-camp-form__submit--fifth" type="submit"
+                            value="ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <div class="block-popup">
+            <h3>Оставьте контактные данные</h3>
+            <form class="popup-form">
+                <input type="text" placeholder="Имя*" name="name-popup" required="required" />
+                <input type="tel" placeholder="+7 999 999 99 99*" name="tel-popup" required="required"
+                    pattern="[+]{1}[0-9]{11}" />
+                <input type="email" placeholder="E-mail" name="email-popup" />
+                <textarea type="textarea" placeholder="Комментарий" name="comment"></textarea>
+                <input type="submit" value="Отправить" name="popup-form__btn" class="popup-form__btn" />
+            </form>
+            <span>
+                <svg width="15" height="15" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.7485 15.0243L29.4299 3.34257C30.1901 2.58272 30.1901 1.35415 29.4299 0.594302C28.67 -0.165548 27.4415 -0.165548 26.6816 0.594302L14.9998 12.2761L3.31843 0.594302C2.55822 -0.165548 1.33 -0.165548 0.570155 0.594302C-0.190052 1.35415 -0.190052 2.58272 0.570155 3.34257L12.2516 15.0243L0.570155 26.7061C-0.190052 27.4659 -0.190052 28.6945 0.570155 29.4544C0.948834 29.8334 1.44674 30.0238 1.94429 30.0238C2.44184 30.0238 2.93939 29.8334 3.31843 29.4544L14.9998 17.7726L26.6816 29.4544C27.0606 29.8334 27.5582 30.0238 28.0557 30.0238C28.5533 30.0238 29.0508 29.8334 29.4299 29.4544C30.1901 28.6945 30.1901 27.4659 29.4299 26.7061L17.7485 15.0243Z"
+                        fill="#050821" />
+                </svg>
+            </span>
+        </div>
+        <div class="overlay"></div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container">
+                <div class="footer__top-inner">
+                    <a class="logo" href="./index.html">
+                        <img class="logo__img" src="./images/logo.svg" alt="logo">
+                    </a>
+
+                    <ul class="footer-list">
+                        <li class="footer-list__item">
+                            <a class="footer-list__item-link" href="#">языковые лагеря</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a class="footer-list__item-link" href="#">онлайн услуги</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a class="footer-list__item-link" href="#">корпоративные услуги</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a class="footer-list__item-link" href="#">турагенство</a>
+                        </li>
+                    </ul>
+
+                    <ul class="connect-list">
+                        <li class="connect-list__item">
+                            <a class="connect-list__item-link" href="">пройти тест</a>
+                        </li>
+                        <li class="connect-list__item">
+                            <a class="connect-list__item-link" href="./faq.html">частые вопросы</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <div class="footer__bottom">
             <div class="container">
                 <div class="footer__bottom-inner">
-                    <button class="call-back" type="button" data-toggle="modal" data-target="#feedbackFormModal">
+                    <button class="call-back open-modal" type="button" data-toggle="modal" data-target="#feedbackFormModal">
                         ЗАКАЗАТЬ ЗВОНОК
                     </button>
                     <nav class="footer__menu">
@@ -173,6 +580,7 @@
                     <p class="footer__org-name">© 2018 – 2021, Yourcamp.me</p>
                 </div>
             </div>
+        </div>
     </footer>
 
     <script src="./js/main.min.js"></script>
