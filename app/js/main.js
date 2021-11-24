@@ -6,44 +6,48 @@ $(function () {
   //   infinite: true,
   // });
 
+  //Бургер меню в мобилке
+  $(".menu__btn").on("click", function () {
+    $(".header__inner-bottom").toggleClass("header__inner-bottom--active");
+  });
+
+  //слайдеры
   $(".disc-wrapper").slick({
     slidesToShow: 3,
     slidesToScroll: 3,
     speed: 300,
     infinite: false,
     variableWidth: true,
+    responsive: [
+      {
+        breakpoint: 370,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   });
 
   $(".holiday-slider").slick({
     dots: true,
     arrows: false,
     infinite: false,
+    // variableWidth: true,
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 4,
-    // responsive: [
-    //   {
-    //     breakpoint: 1024,
-    //     settings: {
-    //       slidesToShow: 3,
-    //       slidesToScroll: 3,
-    //     }
-    //   },
-    //   {
-    //     breakpoint: 600,
-    //     settings: {
-    //       slidesToShow: 2,
-    //       slidesToScroll: 2
-    //     }
-    //   },
-    //   {
-    //     breakpoint: 480,
-    //     settings: {
-    //       slidesToShow: 1,
-    //       slidesToScroll: 1
-    //     }
-    //   }
-    // ]
+    responsive: [
+      {
+        breakpoint: 370,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: false,
+          arrows: true,
+        },
+      },
+    ],
   });
 
   $(".news-s-slider").slick({
@@ -54,10 +58,18 @@ $(function () {
     variableWidth: true,
     arrows: true,
     dots: false,
+    responsive: [
+      {
+        breakpoint: 370,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   });
 
   $(".camp-slider-inner").slick({});
-
 
   //открытие попапа
   $(".open-modal").click(function () {
@@ -280,13 +292,11 @@ $(document).ready(function () {
   });
 });
 
-
 // аккордион на странице FAQ
-const accordion = document.getElementsByClassName('accordion-body');
+const accordion = document.getElementsByClassName("accordion-body");
 
-for (i=0; i<accordion.length; i++) {
-  accordion[i].addEventListener('click', function(){
-    this.classList.toggle('active')
+for (i = 0; i < accordion.length; i++) {
+  accordion[i].addEventListener("click", function () {
+    this.classList.toggle("active");
   });
 }
-
