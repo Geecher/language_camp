@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Наш лагерь</title>
+    <title>Новости</title>
+    <link rel = "icon" type = "./images/logo.svg" href = "./images/logo.svg">
+    <link rel = "apple-touch-icon" type = "./images/logo.svg" href = "./images/logo.svg"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -48,7 +50,7 @@
                     </ul>
                 </div>
                 <div class="header__inner-bottom">
-                    <a class="logo" href="#">
+                    <a class="logo" href="./index.html">
                         <img class="logo__img" src="./images/logo.svg" alt="logo">
                     </a>
                     <nav class="menu">
@@ -82,7 +84,7 @@
                                 <img class="feedback__social-link" src="./images/tg.svg" alt="telegram">
                             </a>
                         </div>
-                        <button class="call-back" type="button" data-toggle="modal" data-target="#feedbackFormModal">
+                        <button class="call-back open-modal" type="button">
                             ЗАКАЗАТЬ ЗВОНОК
                         </button>
                     </div>
@@ -92,47 +94,653 @@
     </header>
 
     <main class="main">
+        <section class="all-news">
+            <div class="container">
+                <div class="all-news-inner">
+                    <h1 class="all-news__title title">Последние новости</h1>
+                    
+                    <div class="all-news-slider" id="g2-slider">
+                        <div class="all-news-slide">
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                        </div>
+                        <div class="all-news-slide">
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                        </div>
+                        <div class="all-news-slide">
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                        </div>
+                        <div class="all-news-slide">
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                        </div>
+                        <div class="all-news-slide">
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                        </div>
+                        <div class="all-news-slide">
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                        </div>
+                        <div class="all-news-slide">
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                        </div>
+                        <div class="all-news-slide">
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                        </div>
+                        <div class="all-news-slide">
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                        </div>
+                        <div class="all-news-slide">
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-1.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-2.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                            <a class="all-news-slide__item" href="./news-opened.html">
+                                <img class="all-news-slide__item-img" src="./images/news/new-3.png" alt="">
+                                <h4 class="all-news-slide__item-title">15 ДНЕЙ БЕЗ РУССКОГО!</h4>
+                                <p class="all-news-slide__item-desc">Общение только на иностранных языках</p>
+                                <p class="all-news-slide__item-date">07:41 21.01.2021</p>
+                            </a>
+                        </div>
+                    </div>
 
+                    <div class="g2-slider-pagination reviews-pagination text-center">
+                        <div class="container">
+                          <div class="g2-slider-pagination__wrapper">
+                            <button class="prev slick-arrow">
+                              <svg width="9" height="12" viewBox="0 0 9 12" fill="none">
+                                <path d="M8.16016 1.41L3.58016 6L8.16016 10.59L6.75016 12L0.750156 6L6.75016 0L8.16016 1.41Z" fill="#101C31"></path>
+                              </svg>
+                            </button>
+                            <ul id="g2-slider-pagination-list">pagination here</ul>
+                            <button class="next slick-arrow">
+                              <svg width="9" height="12" viewBox="0 0 9 12" fill="none">
+                                <path d="M0.839844 1.41L5.41984 6L0.839844 10.59L2.24984 12L8.24984 6L2.24984 0L0.839844 1.41Z" fill="#101C31"></path>
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="block-popup">
+            <h3>Оставьте контактные данные</h3>
+            <form class="popup-form">
+                <input type="text" placeholder="Имя*" name="name-popup" required="required" />
+                <input type="tel" placeholder="+7 999 999 99 99*" name="tel-popup" required="required"
+                    pattern="[+]{1}[0-9]{11}" />
+                <input type="email" placeholder="E-mail" name="email-popup" />
+                <textarea type="textarea" placeholder="Комментарий" name="comment"></textarea>
+                <input type="submit" value="Отправить" name="popup-form__btn" class="popup-form__btn" />
+            </form>
+            <span>
+                <svg width="15" height="15" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.7485 15.0243L29.4299 3.34257C30.1901 2.58272 30.1901 1.35415 29.4299 0.594302C28.67 -0.165548 27.4415 -0.165548 26.6816 0.594302L14.9998 12.2761L3.31843 0.594302C2.55822 -0.165548 1.33 -0.165548 0.570155 0.594302C-0.190052 1.35415 -0.190052 2.58272 0.570155 3.34257L12.2516 15.0243L0.570155 26.7061C-0.190052 27.4659 -0.190052 28.6945 0.570155 29.4544C0.948834 29.8334 1.44674 30.0238 1.94429 30.0238C2.44184 30.0238 2.93939 29.8334 3.31843 29.4544L14.9998 17.7726L26.6816 29.4544C27.0606 29.8334 27.5582 30.0238 28.0557 30.0238C28.5533 30.0238 29.0508 29.8334 29.4299 29.4544C30.1901 28.6945 30.1901 27.4659 29.4299 26.7061L17.7485 15.0243Z"
+                        fill="#050821" />
+                </svg>
+            </span>
+        </div>
+        <div class="overlay"></div>
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer__top">
-                <a class="logo" href="#">
-                    <img class="logo__img" src="./images/logo.svg" alt="logo">
-                </a>
+        <div class="footer__top">
+            <div class="container">
+                <div class="footer__top-inner">
+                    <a class="logo" href="./index.html">
+                        <img class="logo__img" src="./images/logo.svg" alt="logo">
+                    </a>
 
-                <ul class="footer-list">
-                    <li class="footer-list__item">
-                        <a class="footer-list__item-link" href="#">языковые лагеря</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a class="footer-list__item-link" href="#">онлайн услуги</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a class="footer-list__item-link" href="#">корпоративные услуги</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a class="footer-list__item-link" href="#">турагенство</a>
-                    </li>
-                </ul>
+                    <ul class="footer-list">
+                        <li class="footer-list__item">
+                            <a class="footer-list__item-link" href="#">языковые лагеря</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a class="footer-list__item-link" href="#">онлайн услуги</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a class="footer-list__item-link" href="#">корпоративные услуги</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a class="footer-list__item-link" href="#">турагенство</a>
+                        </li>
+                    </ul>
 
-                <ul class="connect-list">
-                    <li class="connect-list__item">
-                        <a class="connect-list__item-link" href="">пройти тест</a>
-                    </li>
-                    <li class="connect-list__item">
-                        <a class="connect-list__item-link" href="./faq.html">частые вопросы</a>
-                    </li>
-                </ul>
-
+                    <ul class="connect-list">
+                        <li class="connect-list__item">
+                            <a class="connect-list__item-link" href="">пройти тест</a>
+                        </li>
+                        <li class="connect-list__item">
+                            <a class="connect-list__item-link" href="./faq.html">частые вопросы</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-
         <div class="footer__bottom">
             <div class="container">
                 <div class="footer__bottom-inner">
-                    <button class="call-back" type="button" data-toggle="modal" data-target="#feedbackFormModal">
+                    <button class="call-back open-modal" type="button" data-toggle="modal" data-target="#feedbackFormModal">
                         ЗАКАЗАТЬ ЗВОНОК
                     </button>
                     <nav class="footer__menu">
@@ -173,6 +781,7 @@
                     <p class="footer__org-name">© 2018 – 2021, Yourcamp.me</p>
                 </div>
             </div>
+        </div>
     </footer>
 
     <script src="./js/main.min.js"></script>
