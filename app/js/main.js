@@ -1,10 +1,4 @@
 $(function () {
-  // $(".top-slider").slick({
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   speed: 300,
-  //   infinite: true,
-  // });
 
   //Бургер меню в мобилке
   $(".menu__btn").on("click", function () {
@@ -20,10 +14,12 @@ $(function () {
     variableWidth: true,
     responsive: [
       {
-        breakpoint: 560,
+        breakpoint: 1080,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          arrows: true,
+          dots: false,
         },
       },
       {
@@ -31,13 +27,8 @@ $(function () {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 370,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          arrows: true,
+          dots: false,
         },
       },
     ],
@@ -53,10 +44,10 @@ $(function () {
     slidesToScroll: 4,
     responsive: [
       {
-        breakpoint: 560,
+        breakpoint: 1080,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
           arrows: true,
           dots: false,
         },
@@ -70,15 +61,6 @@ $(function () {
           dots: false,
         },
       },
-      {
-        breakpoint: 370,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          dots: false,
-          arrows: true,
-        },
-      }
     ],
   });
 
@@ -92,10 +74,12 @@ $(function () {
     dots: false,
     responsive: [
       {
-        breakpoint: 560,
+        breakpoint: 1080,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          arrows: true,
+          dots: false,
         },
       },
       {
@@ -103,13 +87,8 @@ $(function () {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 370,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          arrows: true,
+          dots: false,
         },
       },
     ],
